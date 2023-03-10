@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formupdatekaryawan">
+
+    <ImageView
+        android:id="@+id/imageViewKaryawanUpdate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonFileKaryawanUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:text="Pilih File"
+        app:layout_constraintStart_toEndOf="@+id/imageViewKaryawanUpdate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextIDKaryawanUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="ID Karyawan"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewKaryawanUpdate" />
+
+    <EditText
+        android:id="@+id/editTextNamaKaryawanUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Nama Karyawan"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextIDKaryawanUpdate" />
+
+    <EditText
+        android:id="@+id/editTextJabatanUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Jabatan"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamaKaryawanUpdate" />
+
+    <EditText
+        android:id="@+id/editTextGajiUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Gaji"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJabatanUpdate" />
+
+    <Button
+        android:id="@+id/buttonUpdateKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:text="Update Data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGajiUpdate" />
+
+    <TextView
+        android:id="@+id/textViewPathUpdateKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imageViewKaryawanUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFileKaryawanUpdate" />
+
+    <Button
+        android:id="@+id/buttonDeleteKaryawan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:text="Delete Data"
+        app:layout_constraintStart_toEndOf="@+id/buttonUpdateKaryawan"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGajiUpdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainMenu">
+
+<!--    <Button-->
+<!--        android:id="@+id/btnGame"-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Game"-->
+<!--        tools:layout_editor_absoluteX="96dp"-->
+<!--        tools:layout_editor_absoluteY="118dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnProfil"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Profil"-->
+<!--        tools:layout_editor_absoluteX="231dp"-->
+<!--        tools:layout_editor_absoluteY="118dp" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:text="TextView" />
+</LinearLayout>

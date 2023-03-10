@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project UTS</string>
+    <string-array name="daftar_genre">
+        <item>Adventure</item>
+        <item>RPG</item>
+        <item>Shooter</item>
+        <item>Strategy</item>
+        <item>Horror</item>
+        <item>Simulation</item>
+
+    </string-array>
+</resources>
